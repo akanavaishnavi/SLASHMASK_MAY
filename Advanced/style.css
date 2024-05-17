@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    overflow-x: hidden; /* Prevent horizontal scroll bar on the body */
+}
+
+header {
+    background-color: #ff2600;
+    color: white;
+    padding: 1rem 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+/* Style for the About section */
+.about {
+    flex-grow: 1; /* Take up remaining space */
+    padding-right: 20px; /* Add some spacing between the About section and the map */
+}
+
+/* Style for the Google Maps embed */
+#map {
+    flex-shrink: 0; /* Don't allow the map to shrink */
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+}
+
+
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 2rem;
+}
+
+#company-description {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#company-description .company-description-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#company-description h2 {
+    margin-top: 0;
+}
+
+#menu {
+    margin-bottom: 2rem;
+}
+
+#menu h2 {
+    text-align: center;
+}
+
+.food-items-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 1rem 0;
+}
+
+.food-item {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 200px; /* Set a minimum width to ensure horizontal scroll */
+}
+
+.food-item {
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px; /* Add some space between each food item */
+}
+
+.food-image {
+    width: 100px; /* Adjust the width of the image as needed */
+    height: 100px; /* Adjust the height of the image as needed */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto 10px; /* Center the image horizontally and add some space below it */
+}
+
+
+.add-to-cart {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #ff4500;
+}
+
+#cart {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    padding: 0.5rem 0;
+}
+
+.quantity {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.remove-from-cart {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.remove-from-cart:hover {
+    background-color: #ff6347;
+}
+#checkout-btn {
+    background-color: #ff6347; /* Change the background color to a shade of red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #ff4500; /* Change the background color to a darker shade of red on hover */
+}
+#offers {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#offers h2 {
+    margin-top: 0;
+}
+
+.offer {
+    margin-bottom: 20px;
+}
+
+.offer h3 {
+    margin-top: 0;
+}
+
+.offer p {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#feedback-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#feedback-form label {
+    margin-top: 10px;
+}
+
+#feedback-form input, #feedback-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#feedback-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor

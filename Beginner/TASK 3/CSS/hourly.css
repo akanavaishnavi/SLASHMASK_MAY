@@ -1,0 +1,34 @@
+.hourly-box{
+    display: block;
+    height: auto;
+    width: 45%;
+}
+.accordion-item{
+    margin: 0.25rem;
+
+}
+.accordion-button{
+    background-image: linear-gradient(
+        to top left,
+        var(--corp-darker-green),
+        var(--corp-dark-green)
+      );
+      color: white;
+      border: none;
+    font-size: 0.8rem;
+}
+.accordion-collapse{
+    background-image: linear-gradient(
+        to top left,
+        var(--corp-darker-green),
+        var(--corp-dark-green)
+      );
+      color: white;
+}
+.hourly-icon{
+    width: 2rem;
+}
+.hourly-temp{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
